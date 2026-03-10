@@ -3,7 +3,7 @@ import axios from "axios";
 const api = axios.create({
   baseURL: process.env.REACT_APP_SERVER_URI
     ? process.env.REACT_APP_SERVER_URI
-    : "http://localhost:3000",
+    : "http://localhost:8080",
   withCredentials: true
 });
 

@@ -18,7 +18,6 @@ function LoginPage() {
     } catch (err) {
       console.log(err);
       setIsLoginError(true);
-    } finally {
       setIsLoggingIn(false);
     }
   }
