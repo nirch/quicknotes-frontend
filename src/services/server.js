@@ -8,7 +8,7 @@ const api = axios.create({
 });
 
 function setAuthHeader(token) {
-  // api.defaults.headers["Authorization"] = `Bearer ${token}`;
+  api.defaults.headers["Authorization"] = `Bearer ${token}`;
 }
 
 async function login(username, password) {
